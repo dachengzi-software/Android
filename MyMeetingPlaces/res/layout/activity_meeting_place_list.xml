@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    tools:context="com.ftfl.mymeetingplaces.MeetingPlaceListActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:background="#1B9D9D"
+        android:orientation="horizontal"
+        android:textColor="#fff"
+        android:textSize="25sp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/myVisitedPlace"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvVisitedPlacesNo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/currentLocation"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.98"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/lat"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/currentLat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/lon"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/currentLng"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/visitingPlaceList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="20" 
+        android:divider="#E9EBEA"
+        android:dividerHeight="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_weight="1"
+        android:background="#424242"
+        android:onClick="performHome"
+        android:text="@string/buttonHome"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ftfl.mindgame.ViewActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/etThirdLevelOne"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/layout_background"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etThirdLevelTwo"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/layout_background"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/etThirdLevelThree"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/layout_background"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/etThirdLevelFour"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/layout_background"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etThirdLevelFive"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/layout_background"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLThreeSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:enabled="false"
+                android:onClick="performSubmit"
+                android:text="@string/btnSubmit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

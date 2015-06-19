@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTFLNavigationDrawer</string>
+    <string name="general_fragment_text">This is general fragment</string>
+    <string name="vaccination_fragment_text">This is vaccination fragment</string>
+    <string name="growth_fragment_text">This is growth fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_text">FTFL Navigation Drawer</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="drawer_menu_array">
+        <item>General</item>
+        <item>Vaccination</item>
+        <item>Growth</item>
+    </string-array>
+
+</resources>

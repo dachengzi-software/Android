@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAccelerometerExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="maxAcceleration">Max Acceleration</string>
+    <string name="maxXAxis">Max Acceleration: X-Axis</string>
+    <string name="maxYAxis">Max Acceleration: Y-Axis</string>
+    <string name="maxZAxis">Max Acceleration: Z-Axis</string>
+    <string name="currentAcceleration">Current Acceleration</string>
+    <string name="zero">0.0</string>
+    <string name="XAxis">X-Axis</string>
+    <string name="YAxis">Y-Axis</string>
+    <string name="ZAxis">Z-Axis</string>
+    
+
+</resources>

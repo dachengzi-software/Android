@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">layout2</string>
+    <string name="calender">calender</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="gravity">gravity=</string>
+    
+    <string name="message">Message</string>
+    <string name="active">active</string>
+    <string name="north">North</string>
+    <string name="northeast">NorthEast</string>
+    <string name="northwest">NorthWest</string>
+    <string name="west">West</string>
+    <string name="east">East</string>
+    <string name="south">South</string>
+    <string name="southeast">SouthEast</string>
+    <string name="southwest">SouthWest</string>
+    <string name="about">About</string>
+    <string name="red">RED</string>
+    <string name="arrow">Arrow</string>
+    <string name="degree">14°</string>
+    <string name="layout_gravity">layout_gravity=</string>
+    <string name="time">18:53</string>
+    <string name="wifi">wifi</string>
+    <string name="agenda">agenda</string>
+    <string name="linearLayout">Linear Layout</string>
+    <string name="left">left</string>
+    <string name="center">center</string>
+    <string name="center_vertical">center_vertical</string>
+    <string name="center_horizontal">center_horizontal</string>
+    <string name="weather">weather</string>
+    <string name="bottom">BOTTOM</string>
+    <string name="launcher_icon">Launcher Icon</string>
+    <string name="frame_demo">Frame Demo</string>
+    <string name="Open..">Open..</string>
+    <string name="Save..">Save..</string>
+    <string name="search">search</string>
+    <string name="player">player</string>
+    <string name="gallary">Galary</string>
+    <string name="Quit">Quit</string>
+
+</resources>

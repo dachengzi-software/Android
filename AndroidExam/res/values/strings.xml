@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidExam</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_login_show">LoginShowActivity</string>
+    <string name="title_activity_registration_show">RegistrationShowActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name: </string>
+    <string name="semail">Email : </string>
+    <string name="spassword">Password : </string>
+    <string name="rfull_name">Full Name </string>
+    <string name="btnRegister">Register New Account </string>
+    <string name="log">Already has account! Login here</string>
+    <string name="reg">New to Twitter? Register here</string>
+
+</resources>

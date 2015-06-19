@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">FTFLLayout</string>
+    <string name="text">FTFL Layout Learning</string>
+    <string name="action_settings">actionSetting</string>
+
+</resources>

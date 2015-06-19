@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FtflLogin</string>
+    <string name="aName">twitter</string>
+    <string name="email">Email</string>
+    <string name="pas">Password</string>
+    <string name="log">Login</string>
+    <string name="reg">Register New Account</string>
+    <string name="msg">New to Twitter? Register here</string>
+    <string name="fName">Full Name</string>
+    <string name="msg2">Already have account! login here</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

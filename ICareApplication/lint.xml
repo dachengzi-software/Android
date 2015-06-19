@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InflateParams">
+        <ignore path="src/com/ftfl/icareapplication/adapter/ActivityCustomAdapter.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/ftfl/icareapplication/ICareCreateDietChartActivity.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/ftfl/icareapplication/adapter/ActivityCustomAdapter.java" />
+    </issue>
+</lint>

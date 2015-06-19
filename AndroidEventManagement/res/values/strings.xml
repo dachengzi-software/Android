@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidEventManagement</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="etOne">edit text one</string>
+    <string name="etTwo">edit text two</string>
+    <string name="btn_click">Button Click</string>
+    <string name="btn_touch">Button Touch</string>
+
+</resources>

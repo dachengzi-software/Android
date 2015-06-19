@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">listViewExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+        <string name="description">description</string>
+        <string name="exampleApplication">example Application</string>
+            <!-- <string name="todo">TODO</string>
+            <string name="todo">TODO</string>
+                <string name="todo">TODO</string>
+                <string name="todo">TODO</string>
+                    <string name="todo">TODO</string>
+                    <string name="todo">TODO</string>
+                        <string name="todo">TODO</string>
+                        <string name="todo">TODO</string>
+                            <string name="todo">TODO</string>
+                            <string name="todo">TODO</string>
+                                <string name="todo">TODO</string>
+                                <string name="todo">TODO</string>
+                                    <string name="todo">TODO</string>
+                                    <string name="todo">TODO</string>
+                                        <string name="todo">TODO</string> -->
+                                    
+
+</resources>

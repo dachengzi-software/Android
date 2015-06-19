@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+	    <TextView
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.35"
+	        android:layout_height="wrap_content"
+	        android:text="@string/db_two_activity_date" />
+
+	    <TextView
+	        android:id="@+id/db_two_activity_date"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	         />
+	 </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+	    <TextView
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.35"
+	        android:layout_height="wrap_content"
+	        android:text="@string/db_two_activity_time" />
+
+	    <TextView
+	        android:id="@+id/db_two_activity_time"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	         />
+	 </LinearLayout>
+	 
+          <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+	    <TextView
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.35"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tv_activity_name" />
+
+	    <TextView
+	        android:id="@+id/db_two_activity_name"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	         />
+	 </LinearLayout>
+	 
+      
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <TextView
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.35"
+	        android:layout_height="wrap_content"
+	        android:text="@string/db_two_activity_description" />
+
+	    <TextView
+	        android:id="@+id/db_two_activity_description"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	         />
+	 </LinearLayout>
+	 
+           
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <TextView
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.35"
+	        android:layout_height="wrap_content"
+	        android:text="@string/db_two_activity_current_date" />
+
+	    <TextView
+	        android:id="@+id/db_two_activity_current_date"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	         />
+	 </LinearLayout>
+    
+     
+                
+<!--      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <TextView
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.35"
+	        android:layout_height="wrap_content"
+	        android:text="@string/db_two_activity_alarm" />
+
+	    <TextView
+	        android:id="@+id/db_two_activity_alarm"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	         />
+	 </LinearLayout> -->
+	 
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp" >
+
+       <Button
+        android:id="@+id/btnActivityEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:onClick="editData" />
+
+     <Button
+        android:id="@+id/btnActivityDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:onClick="deleteData"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp" />
+    </LinearLayout>
+	 
+     
+    
+</LinearLayout>
+
+   
+
+

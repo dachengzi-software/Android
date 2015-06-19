@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DhakaWeather</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="weather_title">ঢাকা (বাংলাদেশ) শহরের আবহাওয়ার পূর্বাভাস</string>
+    <string name="mor">সকাল</string>
+    <string name="day">দুপুর</string>
+    <string name="eve">বিকেল</string>
+    <string name="night">রাত</string>
+    <string name="refresh">Refresh</string>
+    <string name="farhenheit">ফারেনহাইট</string>
+    <string name="celsius">সেলসিয়াস</string>
+    <string name="no_connection">Internet Connection Required. Please Check Your Internet Connection .....</string>
+
+</resources>

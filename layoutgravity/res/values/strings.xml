@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">LayoutCollection</string>
+    <string name="gravity">gravity=</string>
+    <string name="action_settings">action_setting</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="north">North</string>
+    <string name="northeast">NorthEast</string>
+    <string name="northwest">NorthWest</string>
+    <string name="west">West</string>
+    <string name="east">East</string>
+    <string name="south">South</string>
+    <string name="southeast">SouthEast</string>
+    <string name="southwest">SouthWest</string>
+    <string name="about">About</string>
+    <string name="red">RED</string>
+    <string name="arrow">Arrow</string>
+    <string name="yellow">YELLOW</string>
+    <string name="layout_gravity">layout_gravity=</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+    <string name="linearLayout">Linear Layout</string>
+    <string name="left">left</string>
+    <string name="center">center</string>
+    <string name="center_vertical">center_vertical</string>
+    <string name="center_horizontal">center_horizontal</string>
+    <string name="right">right</string>
+    <string name="bottom">BOTTOM</string>
+    <string name="launcher_icon">Launcher Icon</string>
+    <string name="frame_demo">Frame Demo</string>
+    <string name="Open..">Open..</string>
+    <string name="Save..">Save..</string>
+    <string name="X">X</string>
+    <string name="Import..">Import..</string>
+    <string name="Export..">Export..</string>
+    <string name="Quit">Quit</string>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">FTFLPhotoPickerv6</string>
+	<string name="btn_text_camera">Take Photo From Gallery</string>
+</resources>
